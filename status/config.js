@@ -20,17 +20,18 @@ window.Config = {
 
   // 导航栏菜单
   Navi: [
-    {
-      text: '状态页',
-      url: 'https://g.3r60.top/status'
-    },
-    {
-      text: '官网',
+       {
+      text: '首页',
       url: 'https://3r60.top'
     },
     {
-      text: '博客',
-      url: 'https://blog.3r60.top/'
+      text: '状态',
+      url: 'https://g.3r60.top/status'
+    },
+
+    {
+      text: '关于',
+      url: 'https://3r60.top/about.html'
     },
   ],
 };
