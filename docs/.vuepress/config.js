@@ -1,18 +1,27 @@
-import { defaultTheme } from '@vuepress/theme-default'
-import { defineUserConfig } from 'vuepress'
-import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from "@vuepress/theme-default";
+import { defineUserConfig } from "vuepress";
+import { viteBundler } from "@vuepress/bundler-vite";
 
 export default defineUserConfig({
-  lang: 'en-US',
+  lang: "zh-CN",
 
-  title: 'VuePress',
-  description: 'My first VuePress Site',
+  title: "瑞思文档",
+  description: "腾瑞思智官方文档站点",
 
   theme: defaultTheme({
-    logo: 'https://vuejs.press/images/hero.png',
+    logo: "https://api.3r60.top/icons/user.ico",
 
-    navbar: ['/', '/get-started'],
+    navbar: [
+      {
+        text: "首页",
+        link: "/",
+      },
+      {
+        text: "用户协议",
+        link: "/terms",
+      },
+    ],
   }),
 
   bundler: viteBundler(),
-})
+});
