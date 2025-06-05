@@ -1,3 +1,8 @@
+---
+title: terms
+createTime: 2025/06/05 22:32:35
+permalink: /article/sqjzx19c/
+---
 # 用户协议
 
 > 更新时间：2024/7/12  
