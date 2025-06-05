@@ -16,12 +16,12 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'RisDocs',
+  title: '瑞思文档',
   description: '腾瑞思智官方文档站点',
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'https://theme-plume.vuejs.press/favicon-32x32.png' }],
+    ['link', { rel: 'icon', type: 'image/ico', href: 'https://api.3r60.top/icons/user.ico' }],
   ],
 
   bundler: viteBundler(),
@@ -29,18 +29,18 @@ export default defineUserConfig({
 
   theme: plumeTheme({
     /* 添加您的部署域名, 有助于 SEO, 生成 sitemap */
-    // hostname: 'https://your_site_url',
+    hostname: 'https://docs.3r60.top',
 
     /* 文档仓库配置，用于 editLink */
-    // docsRepo: '',
-    // docsDir: 'docs',
-    // docsBranch: '',
+    docsRepo: 'https://github.com/PYLXU/pylxu.github.io',
+    docsDir: '',
+    docsBranch: 'main',
 
     /* 页内信息 */
-    // editLink: true,
-    // lastUpdated: true,
-    // contributors: true,
-    // changelog: false,
+    editLink: true,
+    lastUpdated: {},
+    contributors: true,
+    changelog: false,
 
     /**
      * 博客
@@ -69,11 +69,11 @@ export default defineUserConfig({
      * 为 markdown 文件自动添加 frontmatter 配置
      * @see https://theme-plume.vuejs.press/config/basic/#autofrontmatter
      */
-    // autoFrontmatter: {
-    //   permalink: true,  // 是否生成永久链接
-    //   createTime: true, // 是否生成创建时间
-    //   title: true,      // 是否生成标题
-    // },
+    autoFrontmatter: {
+      permalink: true,  // 是否生成永久链接
+      createTime: true, // 是否生成创建时间
+      title: true,      // 是否生成标题
+    },
 
     /* 本地搜索, 默认启用 */
     search: { provider: 'local' },
@@ -136,12 +136,12 @@ export default defineUserConfig({
     //   echarts: true,      // 启用 ECharts
     //   mermaid: true,      // 启用 mermaid
     //   flowchart: true,    // 启用 flowchart
-    //   image: {
-    //     figure: true,     // 启用 figure
-    //     lazyload: true,   // 启用图片懒加载
-    //     mark: true,       // 启用图片标记
-    //     size: true,       // 启用图片大小
-    //   },
+      // image: {
+      //   figure: true,     // 启用 figure
+      //   lazyload: true,   // 启用图片懒加载
+      //   mark: true,       // 启用图片标记
+      //   size: true,       // 启用图片大小
+      // },
     //   include: true,      // 在 Markdown 文件中导入其他 markdown 文件内容
     //   imageSize: 'local', // 启用 自动填充 图片宽高属性，避免页面抖动
     // },

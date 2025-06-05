@@ -35,15 +35,15 @@ export default defineThemeConfig({
    */
   // copyright: true,
 
-  // prevPage: true,   // 是否启用上一页链接
-  // nextPage: true,   // 是否启用下一页链接
-  // createTime: true, // 是否显示文章创建时间
+  prevPage: true,   // 是否启用上一页链接
+  nextPage: true,   // 是否启用下一页链接
+  createTime: true, // 是否显示文章创建时间
 
   /* 站点页脚 */
-  // footer: {
-  //   message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
-  //   copyright: '',
-  // },
+  footer: {
+    message: 'Power by <a target="_blank" href="https://v2.vuepress.vuejs.org/">VuePress</a> & <a target="_blank" href="https://theme-plume.vuejs.press">vuepress-theme-plume</a>',
+    copyright: '版权所有 © 2025 腾瑞思智',
+  },
 
   /**
    * @see https://theme-plume.vuejs.press/config/basic/#profile

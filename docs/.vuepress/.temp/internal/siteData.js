@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"RisDocs\",\"description\":\"腾瑞思智官方文档站点\",\"head\":[[\"link\",{\"rel\":\"icon\",\"type\":\"image/png\",\"href\":\"https://theme-plume.vuejs.press/favicon-32x32.png\"}]],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"zh-CN\",\"title\":\"瑞思文档\",\"description\":\"腾瑞思智官方文档站点\",\"head\":[[\"link\",{\"rel\":\"icon\",\"type\":\"image/ico\",\"href\":\"https://api.3r60.top/icons/user.ico\"}]],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

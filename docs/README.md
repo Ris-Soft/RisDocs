@@ -7,16 +7,16 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: 腾瑞思智
+      # tagline: 科技 研究 解决 空间
+      text: Technology Research Solutions Zone
       actions:
         -
           theme: brand
-          text: 博客
-          link: /blog/
+          text: 用户协议
+          link: /terms
         -
           theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          text: 开源项目
+          link: https://github.com/Ris-Soft
 ---

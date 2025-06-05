@@ -2,7 +2,7 @@ export const redirects = JSON.parse("{\"/terms.html\":\"/article/sqjzx19c/\",\"/
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"D:/RisDocs/pylxu.github.io/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":""} }],
-  ["/article/sqjzx19c/", { loader: () => import(/* webpackChunkName: "article_sqjzx19c_index.html" */"D:/RisDocs/pylxu.github.io/docs/.vuepress/.temp/pages/article/sqjzx19c/index.html.js"), meta: {"title":"terms"} }],
+  ["/article/sqjzx19c/", { loader: () => import(/* webpackChunkName: "article_sqjzx19c_index.html" */"D:/RisDocs/pylxu.github.io/docs/.vuepress/.temp/pages/article/sqjzx19c/index.html.js"), meta: {"title":"用户协议"} }],
   ["/article/r8o5pm7d/", { loader: () => import(/* webpackChunkName: "article_r8o5pm7d_index.html" */"D:/RisDocs/pylxu.github.io/docs/.vuepress/.temp/pages/article/r8o5pm7d/index.html.js"), meta: {"title":"自定义组件"} }],
   ["/article/dp9w1hw3/", { loader: () => import(/* webpackChunkName: "article_dp9w1hw3_index.html" */"D:/RisDocs/pylxu.github.io/docs/.vuepress/.temp/pages/article/dp9w1hw3/index.html.js"), meta: {"title":"Markdown"} }],
   ["/demo/cqocw8ia/", { loader: () => import(/* webpackChunkName: "demo_cqocw8ia_index.html" */"D:/RisDocs/pylxu.github.io/docs/.vuepress/.temp/pages/demo/cqocw8ia/index.html.js"), meta: {"title":"bar"} }],

@@ -1,5 +1,5 @@
 import comp from "D:/RisDocs/pylxu.github.io/docs/.vuepress/.temp/pages/index.html.vue"
-const data = JSON.parse("{\"path\":\"/\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"pageLayout\":\"home\",\"externalLinkIcon\":false,\"config\":[{\"type\":\"hero\",\"full\":true,\"background\":\"tint-plate\",\"hero\":{\"name\":\"Theme Plume\",\"tagline\":\"VuePress Next Theme\",\"text\":\"一个简约的，功能丰富的 vuepress 文档&博客 主题\",\"actions\":[{\"theme\":\"brand\",\"text\":\"博客\",\"link\":\"/blog/\"},{\"theme\":\"alt\",\"text\":\"Github →\",\"link\":\"https://github.com/pengzhanbo/vuepress-theme-plume\"}]}}]},\"readingTime\":{\"minutes\":0.18,\"words\":55},\"git\":{},\"filePathRelative\":\"README.md\",\"headers\":[],\"categoryList\":[]}")
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"pageLayout\":\"home\",\"externalLinkIcon\":false,\"config\":[{\"type\":\"hero\",\"full\":true,\"background\":\"tint-plate\",\"hero\":{\"name\":\"腾瑞思智\",\"text\":\"Technology Research Solutions Zone\",\"actions\":[{\"theme\":\"brand\",\"text\":\"用户协议\",\"link\":\"/terms\"},{\"theme\":\"alt\",\"text\":\"开源项目\",\"link\":\"https://github.com/Ris-Soft\"}]}}]},\"readingTime\":{\"minutes\":0.18,\"words\":53},\"git\":{},\"filePathRelative\":\"README.md\",\"headers\":[],\"categoryList\":[]}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
