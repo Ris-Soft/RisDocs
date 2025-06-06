@@ -1,10 +1,8 @@
 ---
-title: about
+title: 关于我们
 createTime: 2025/06/06 20:28:32
 permalink: /article/vtkd3rcc/
 ---
-# 关于我们
-
 ## 官方社群
 
 [RisChat](https://qm.qq.com/q/3swohB3zsQ)
