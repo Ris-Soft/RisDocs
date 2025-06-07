@@ -10,7 +10,7 @@ permalink: /article/sqjzx19c/
 
 ## 协议前置说明
 
-在继续使用服务前，请先阅读并同意 [《争翼再创服务协议》](https://www.wingahead.com/contract) 与 [《争翼再创隐私政策》](https://www.wingahead.com/privacy-policy)。  
+在继续使用服务前，请先阅读并同意 [《征翼再创服务协议》](https://www.wingahead.com/contract) 与 [《征翼再创隐私政策》](https://www.wingahead.com/privacy-policy)。  
 若您对新增条款有异议或不同意，请立即停止使用本服务。
 
 如需咨询或反馈问题，可通过以下方式联系我们：
