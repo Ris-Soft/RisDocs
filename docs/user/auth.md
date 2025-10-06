@@ -1,4 +1,8 @@
-# 用户信息授权
+---
+title: 用户信息授权
+createTime: 2025/10/06 21:27:01
+permalink: /article/nrqfenan/
+---
 
 AuthToken获取信息方式在ApiV2版本已弃用
 
@@ -10,9 +14,9 @@ AuthToken获取信息方式在ApiV2版本已弃用
 
 | 接口地址 | 描述 |
 | --- | --- |
-| [网页应用授权](https://docs.3r60.top/article/接口文档/apiUser#h2-index-php) | 用户通过此接口完成授权过程。 |
+| [网页应用授权](https://docs.3r60.top/article/b4ahgcr2/#index-php) | 用户通过此接口完成授权过程。 |
 
-在使用 **网页应用授权** API 时，请将 `[开发者Token]` 替换为您的 Token，并将 `[目标应用APPID]` 替换为您的 APPID。有关如何获取 APPID 和 Token 的详细信息，请参考文档：[如何获取APPID和TOKEN？](https://docs.3r60.top/article/开发文档/必要参数获取)
+在使用 **网页应用授权** API 时，请将 `[开发者Token]` 替换为您的 Token，并将 `[目标应用APPID]` 替换为您的 APPID。有关如何获取 APPID 和 Token 的详细信息，请参考文档：[如何获取APPID和TOKEN？](https://docs.3r60.top/article/ssclq5ks/)
 
 ## 接口使用流程
 
@@ -21,7 +25,7 @@ AuthToken获取信息方式在ApiV2版本已弃用
    - 在应用详情页面配置应用名称、回调地址（返回地址）以及错误返回地址（网络地址）。
 
 2. **引导用户访问授权页面**
-   - 在您的网站中，引导用户访问 **网页应用授权** 地址：[网页应用授权](https://docs.3r60.top/article/接口文档/apiUser#h2-index-php)。
+   - 在您的网站中，引导用户访问 **网页应用授权** 地址：[网页应用授权](https://docs.3r60.top/article/ssclq5ks/index-php)。
 
 3. **用户授权**
    - 用户访问授权页面后，可以使用腾瑞思智账户完成授权。
@@ -34,4 +38,4 @@ AuthToken获取信息方式在ApiV2版本已弃用
    ```
 
 5. **获取用户信息**
-   - 使用用户信息获取凭据，调用 API 获取用户信息。API 使用方法见文档：[获取用户信息](https://docs.3r60.top/article/接口文档/apiVer1#h3-getuserinfo-php) 注意使用authtoken方式获取。
+   - 使用用户信息获取凭据，调用 API 获取用户信息。API 使用方法见文档：[获取用户信息](https://docs.3r60.top/article/517l5tw2/getuserinfo-php) 注意使用authtoken方式获取。

@@ -1,8 +1,13 @@
-# 容器组件
-更新时间：2024-08-10 14:15:53 星期六
-页面基本布局详见[快速开始>书写代码](https://docs.3r60.top/article/%E7%95%8C%E9%9D%A2%E6%96%87%E6%A1%A3/%7BM%3D1%7D%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B#h2-step-2- "快速开始>书写代码")
+---
+title: 容器组件
+createTime: 2025/10/06 21:26:56
+permalink: /article/xjbna87x/
+---
 
-[TOC]
+更新时间：2024-08-10 14:15:53 星期六
+页面基本布局详见[快速开始>书写代码](https://docs.3r60.top/article/ia2oegg5/#step-2-开始书写代码 "快速开始>书写代码")
+
+
 
 ## 顶栏-topbar
 
@@ -245,7 +250,3 @@ topbar不要放入主容器
 <div class="tag tag-success">这是一个绿色背景标签</div>
 <div class="tag tag-danger">这是一个红色背景标签</div>
 ```
-
-
-[[上一节]功能函数](/article/界面文档/功能函数 "[上一节]功能函数")
-[[下一节]无]()

@@ -1,4 +1,8 @@
-# 设备流登录
+---
+title: 设备流登录
+createTime: 2025/10/06 21:27:01
+permalink: /article/sv10dxw4/
+---
 
 **相关链接:** [开发者平台](https://user.3r60.top/dev)
 
@@ -6,13 +10,13 @@
 
 | 接口地址 | 描述 |
 | --- | --- |
-| [获取新设备标识](https://docs.3r60.top/article/接口文档/apiVer2#h3-getnewdeviceid) | 获取一个新的空设备标识符。 |
-| [获取设备信息](https://docs.3r60.top/article/接口文档/apiVer2#h3-getuserinfo) | 检查设备上的用户登录状态。 |
+| [获取新设备标识](https://docs.3r60.top/article/noa72j4a/#getnewdeviceid) | 获取一个新的空设备标识符。 |
+| [获取设备信息](https://docs.3r60.top/article/noa72j4a/#getuserinfo) | 检查设备上的用户登录状态。 |
 
-为了确保应用能够成功地通过设备流完成登录过程，你需要定期调用 **获取设备信息** API 来检查登录状态。具体操作方法请参考文档：[获取设备信息](https://docs.3r60.top/article/接口文档/apiVer2#h3-getuserinfo)。
+为了确保应用能够成功地通过设备流完成登录过程，你需要定期调用 **获取设备信息** API 来检查登录状态。具体操作方法请参考文档：[获取设备信息](https://docs.3r60.top/article/noa72j4a/#getuserinfo)。
 
 ### 参数替换指南
-- 在 **获取新设备标识** API 中，用 `[开发者Token]` 替换为你的 Token，并用 `[目标应用APPID]` 替换为你的 APPID。如需获取这些参数，请参考文档：[如何获取APPID和TOKEN？](https://docs.3r60.top/article/开发文档/必要参数获取)
+- 在 **获取新设备标识** API 中，用 `[开发者Token]` 替换为你的 Token，并用 `[目标应用APPID]` 替换为你的 APPID。如需获取这些参数，请参考文档：[如何获取APPID和TOKEN？](https://docs.3r60.top/article/ssclq5ks/)
 - 在 **设备流登录** API 中，用 `[未登录的设备ID]` 替换为你通过 **获取新设备标识** API 获取到的空设备 ID。
 
 ## 代码编写逻辑
@@ -22,7 +26,7 @@
    - 调用 **获取新设备标识** API 来获取一个新的空设备标识符。
 
 4. **引导用户授权**
-   - 引导用户在浏览器中打开授权页面：[设备流授权](https://docs.3r60.top/article/接口文档/apiUser#h2-webauth-index-php)。在打开此页面时同时启动下一项逻辑，用户在此页面完成授权操作后，你的应用应能接收到成功授权的通知。
+   - 引导用户在浏览器中打开授权页面：[设备流授权](https://docs.3r60.top/article/b4ahgcr2/#webauth-index-php)。在打开此页面时同时启动下一项逻辑，用户在此页面完成授权操作后，你的应用应能接收到成功授权的通知。
 
 2. **循环获取信息**
    - 实现一个循环机制，定期调用 **获取设备信息** API 进行监测，建议每 10 秒调用一次，避免频率过高（返回 `code:200` 表示登录成功， `code:201` 表示等待用户操作，`code:401` 则表示用户取消授权）。

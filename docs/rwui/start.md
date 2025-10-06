@@ -1,8 +1,13 @@
-# 快速开始
+---
+title: 快速开始
+createTime: 2025/10/06 21:26:56
+permalink: /article/ia2oegg5/
+---
+
 最后更新：2024-08-10 07:35:05 星期六
 适用于RWUIv3
 
-[TOC]
+
 
 ## Step1 放置调用包文件
 此文件用于在单网站/多网站之间同步默认数据（顶栏内容、网站标题等）。
@@ -108,8 +113,7 @@ document.writeln( `<script src="https://assets.3r60.top/v3/package.js"></script>
  - content：文本区域（当存在左栏时搭配使用）
 - footer：底栏
 
-[演示图片1](https://docs.3r60.top/assets/img/img-page1.png "页面1")
-[演示图片2](https://docs.3r60.top/assets/img/img-page2.png "页面2")
+暂时不能看
 
-[[上一节]无]()
-[[下一节]全局事件](/article/界面文档/全局事件 "[下一节]全局事件")
+<!-- [演示图片1](img-page1.png "页面1")
+[演示图片2](img-page2.png "页面2") -->

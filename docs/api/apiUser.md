@@ -1,7 +1,12 @@
-# apiAuth
+---
+title: apiUser
+createTime: 2025/10/06 21:26:45
+permalink: /article/x7jw8mwz/
+---
+
 *此处API总地址：https://user.3r60.top/auth*
 
-[TOC]
+
 
 ## index.php
 网页内授权登录（若您应用与桌面软件，推荐使用下方设备流登录API）

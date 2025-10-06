@@ -1,6 +1,8 @@
-# apiVer2
-
-[TOC]
+---
+title: apiVer2
+createTime: 2025/10/06 21:26:45
+permalink: /article/ld8jhdvw/
+---
 
 ## tips
 RWUIv2网页内小提示
