@@ -9,6 +9,9 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 export default defineNavbarConfig([
   { text: '首页', link: '/' },
   { text: '用户协议', link: '/terms' },
+  { text: 'RWUI', link: '/rwui' },
+  { text: '接口', link: '/api' },
+  { text: '账户系统', link: '/user' },
   { text: '关于', link: '/about' },
   // { text: '博客', link: '/blog/' },
   // { text: '标签', link: '/blog/tags/' },
