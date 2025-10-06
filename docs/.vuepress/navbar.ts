@@ -9,9 +9,28 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 export default defineNavbarConfig([
   { text: '首页', link: '/' },
   { text: '用户协议', link: '/terms' },
-  { text: 'RWUI', link: '/rwui' },
-  { text: '接口', link: '/api' },
-  { text: '账户系统', link: '/user' },
+  {
+    text: 'RWUI', items: [
+      { text: '快速开始', link: '/rwui/start' },
+      { text: '全局事件', link: '/rwui/event' },
+      { text: '容器组件', link: '/rwui/container' },
+      { text: '功能函数', link: '/rwui/function' }
+    ]
+  },
+  {
+    text: '接口', items: [
+      { text: '账户系统', link: '/api/apiUser' },
+      { text: '接口版本1', link: '/api/apiVer1' },
+      { text: '接口版本2', link: '/api/apiVer2' }
+    ]
+  },
+  {
+    text: '账户系统', items: [
+      { text: '必要参数', link: '/user/parameters' },
+      { text: '设备流登录', link: '/user/login' },
+      { text: '用户信息授权', link: '/user/auth' }
+    ]
+  },
   { text: '关于', link: '/about' },
   // { text: '博客', link: '/blog/' },
   // { text: '标签', link: '/blog/tags/' },
